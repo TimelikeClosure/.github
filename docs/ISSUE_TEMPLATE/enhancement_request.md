@@ -2,13 +2,13 @@
 name: Enhancement request
 about: Suggest a user-facing functional improvement to this project.
 title: "[NEW/INCREMENTAL/CONTENT] Pick one, then insert title here"
-labels: Enhancement, needs-more-info
-assignees: (maintainer GitHub username)
+labels: enhancement, needs-more-info
+assignees: TimelikeClosure
 
 ---
 
 ### Enhancement Request
-> _To be filled out by author. Add the `Enhancement` and `needs-more-info` labels. Assign issue to self on creation._
+> _To be filled out by author. Add the `enhancement` and `needs-more-info` labels. Assign issue to self on creation._
 
 #### **Is your enhancement request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
@@ -34,19 +34,19 @@ Add any other context, screenshots, or design documents about the enhancement re
 
 #### **Validation**
 - [ ] The Request section is filled out completely.
-  - If not, add `Needs More Info` label and assign back to author.
+  - If not, add `needs-more-info` label and assign back to author.
 - [ ] This request is not a duplicate of another request.
-  - If it is, reference duplicate issue, add `Duplicate` label, and close issue.
+  - If it is, reference duplicate issue, add `duplicate` label, and close issue.
 - [ ] This request does not run counter to intended functionality.
-  - If it does, add `By Design` label and close issue.
+  - If it does, add `by-design` label and close issue.
 
 #### **Budgetting**
 - [ ] The request will provide enough benefit to justify the cost.
-  - If not, add the `Won't Fix` label and close issue.
+  - If not, add the `wont-fix` label and close issue.
 - [ ] The request can be budgetted for active development at this time.
-  - If not, add the `Postponed` label.
+  - If not, add the `postponed` label.
 
-> _After all the above checks pass, add the `Ready for Implementation` label and assign issue to implementer._
+> _After all the above checks pass, add the `ready-to-implement` label and assign issue to implementer._
 
 ---
 
@@ -62,13 +62,13 @@ If the enhancement can be broken down into sub-tasks/-issues, add checklist for 
 #### **Opening Pull Requests**
 After the enhancement has been pushed to GitHub, open a pull request using the following URL template (filling in the compare branch name):
 ```
-https://github.com/Learning-Fuze/<REPO>/compare/dev...<COMPARE BRANCH>?assignees=<REPO MAINTAINERS>&&expand=1&&template=enhancement.md&&labels=Enhancement+Needs%20More%20Info&&title=[NEW/INCREMENTAL/CONTENT]%20Insert%20Fix%20Title%20Here
+https://github.com/TimelikeClosure/<REPO>/compare/dev...<COMPARE BRANCH>?assignees=TimelikeClosure&&expand=1&&template=enhancement.md&&labels=Enhancement+Needs%20More%20Info&&title=[NEW/INCREMENTAL/CONTENT]%20Insert%20Fix%20Title%20Here
 ```
 
 #### **After Merging Pull Requests**
 After a pull request referencing this issue has been merged, check off any completed steps in the Implementation section above.
 
-> _After all the above steps have been completed and integrated into the main development branch, add the `Ready for Testing` label, remove the `Ready for Implementation` label, and assign issue to tester for verification._
+> _After all the above steps have been completed and integrated into the main development branch, add the `ready-to-test` label, remove the `ready-to-implement` label, and assign issue to tester for verification._
 
 ---
 
@@ -79,4 +79,4 @@ Commit tested on main development branch: [commit #]
 - [ ] Application runs without crashing.
 - [ ] Enhancement is fully implemented and meets the spec.
 
-> _After the main development branch is verified to meet the spec, add the `Verified` label, remove the `Ready for Testing` label, then close the issue._
+> _After the main development branch is verified to meet the spec, add the `verified` label, remove the `ready-to-test` label, then close the issue._

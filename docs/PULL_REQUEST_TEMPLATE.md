@@ -6,7 +6,7 @@
 A description of the bug fixed, feature added, or refactor made in this pull request.
 
 #### **Related Issue**
-A direct reference to the related issue. Add the label corresponding to the issue type (`Bug`, `Enhancement`, `Technical Debt`, `Tooling`).
+A direct reference to the related issue. Add the label corresponding to the issue type (`bug`, `enhancement`, `technical-debt`, `tooling`).
 
 #### **Type of change**
 _Please delete options that are not relevant._

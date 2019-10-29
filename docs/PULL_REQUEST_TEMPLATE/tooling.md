@@ -1,6 +1,6 @@
 
 ### Content
-> _To be filled out by author. Add the `Tooling` and `needs-more-info` labels, and assign to self on creation._
+> _To be filled out by author. Add the `tooling` and `needs-more-info` labels, and assign to self on creation._
 
 #### **Description**
 A description of the tooling improvement in this pull request.

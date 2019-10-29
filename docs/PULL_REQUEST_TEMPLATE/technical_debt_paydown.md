@@ -1,6 +1,6 @@
 
 ### Content
-> _To be filled out by author. Add the `Technical Debt` and `needs-more-info` labels, then assign to self on creation._
+> _To be filled out by author. Add the `technical-debt` and `needs-more-info` labels, then assign to self on creation._
 
 #### **Description**
 A description of the refactor made in this pull request.

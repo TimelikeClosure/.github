@@ -1,6 +1,6 @@
 
 ### Content
-> _To be filled out by author. Add the `Bug` and `needs-more-info` labels and assign to self on creation._
+> _To be filled out by author. Add the `bug` and `needs-more-info` labels and assign to self on creation._
 
 #### **Description**
 A description of the bug fix attempted in this pull request.

@@ -1,6 +1,6 @@
 
 ### Content
-> _To be filled out by author. Add the `needs-more-info` label and assign to self._
+> _To be filled out by author. Add the `technical-debt` and `needs-more-info` labels, then assign to self._
 
 #### **Description**
 A description of the documentation change made in this pull request.

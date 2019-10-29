@@ -1,6 +1,6 @@
 
 ### Content
-> _To be filled out by author. Add the `Enhancement` and `needs-more-info` labels, and assign to self on creation._
+> _To be filled out by author. Add the `enhancement` and `needs-more-info` labels, and assign to self on creation._
 
 #### **Description**
 A description of the feature added or other enhancement made in this pull request.

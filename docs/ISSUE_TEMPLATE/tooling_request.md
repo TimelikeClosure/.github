@@ -2,13 +2,13 @@
 name: Tooling request
 about: Suggest a developer-facing functional tooling improvement for this project
 title: "[DEVELOPMENT/TESTS/DEPLOY/MISC] Pick one. then insert title here"
-labels: Tooling, needs-more-info
-assignees: (maintainer GitHub username)
+labels: tooling, needs-more-info
+assignees: TimelikeClosure
 
 ---
 
 ### Tooling Request
-> _To be filled out by author. Add the `Tooling` and `needs-more-info` labels. Assign issue to self on creation._
+> _To be filled out by author. Add the `tooling` and `needs-more-info` labels. Assign issue to self on creation._
 
 #### **Is your tooling request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
@@ -34,19 +34,19 @@ Add any other context, screenshots, or design documents about the tooling enhanc
 
 #### **Validation**
 - [ ] The Request section is filled out completely.
-  - If not, add `Needs More Info` label and assign back to author.
+  - If not, add `needs-more-info` label and assign back to author.
 - [ ] This request is not a duplicate of another request.
-  - If it is, reference duplicate issue, add `Duplicate` label, and close issue.
+  - If it is, reference duplicate issue, add `duplicate` label, and close issue.
 - [ ] This request does not run counter to intended functionality.
-  - If it does, add `By Design` label and close issue.
+  - If it does, add `by-design` label and close issue.
 
 #### **Budgetting**
 - [ ] The request will provide enough benefit to justify the cost.
-  - If not, add the `Won't Fix` label and close issue.
+  - If not, add the `wont-fix` label and close issue.
 - [ ] The request can be budgetted for active development at this time.
-  - If not, add the `Postponed` label.
+  - If not, add the `postponed` label.
 
-> _After all the above checks pass, add the `Ready for Implementation` label and assign issue to implementer._
+> _After all the above checks pass, add the `ready-to-implement` label and assign issue to implementer._
 
 ---
 
@@ -62,13 +62,13 @@ If the tooling enhancement can be broken down into sub-tasks/-issues, add checkl
 #### **Opening Pull Requests**
 After the enhancement has been pushed to GitHub, open a pull request using the following URL template (filling in the compare branch name):
 ```
-https://github.com/Learning-Fuze/<REPO>/compare/dev...<COMPARE BRANCH>?assignees=<REPO MAINTAINERS>&&expand=1&&template=tooling.md&&labels=Tooling+Needs%20More%20Info&&title=[DEVELOPMENT/TESTS/DEPLOY/MISC]%20Insert%20Title%20Here
+https://github.com/TimelikeClosure/<REPO>/compare/dev...<COMPARE BRANCH>?assignees=TimelikeClosure&&expand=1&&template=tooling.md&&labels=Tooling+Needs%20More%20Info&&title=[DEVELOPMENT/TESTS/DEPLOY/MISC]%20Insert%20Title%20Here
 ```
 
 #### **After Merging Pull Requests**
 After a pull request referencing this issue has been merged, check off any completed steps in the Implementation section above.
 
-> _After all the above steps have been completed and integrated into the main development branch, add the `Ready for Testing` label, remove the `Ready for Implementation` label, and assign issue to tester for verification._
+> _After all the above steps have been completed and integrated into the main development branch, add the `ready-to-test` label, remove the `ready-to-implement` label, and assign issue to tester for verification._
 
 ---
 
@@ -80,4 +80,4 @@ Commit tested on main development branch: [commit #]
 - [ ] Application runs without crashing.
 - [ ] Tooling Enhancement is fully implemented and meets the spec.
 
-> _After the main development branch is verified to meet the spec, add the `Verified` label, remove the `Ready for Testing` label, then close the issue._
+> _After the main development branch is verified to meet the spec, add the `verified` label, remove the `ready-to-test` label, then close the issue._
