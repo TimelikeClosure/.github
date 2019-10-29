@@ -8,7 +8,7 @@ assignees: TimelikeClosure
 ---
 
 ### Quick-Fix - Minor Bug
-> _To be filled out by author. Add the `bug` and `needs-more-info` labels. Assign issue to self on creation._
+> _Add the `bug` and `needs-more-info` labels._
 
 #### **Short Description**
 In two sentences or less, describe the bug and its fix.
@@ -16,7 +16,7 @@ In two sentences or less, describe the bug and its fix.
 #### **Additional context**
 Add any other links, screenshots, or context about the issue here.
 
-> _After all the above sections are filled out, replace the `needs-more-info` label with `Ready for Implementation`, then move on to the implementation._
+> _After all the above sections are filled out, replace the `needs-more-info` label with `ready-to-implement`, then move on to the implementation._
 
 ---
 

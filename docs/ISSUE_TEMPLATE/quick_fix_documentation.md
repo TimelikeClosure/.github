@@ -8,7 +8,7 @@ assignees: TimelikeClosure
 ---
 
 ### Quick-Fix - Documentation
-> _To be filled out by author. Add the `technical-debt` and `needs-more-info` labels. Assign issue to self on creation._
+> _Add the `technical-debt` and `needs-more-info` labels._
 
 #### **Short Description**
 In two sentences or less, describe the documentation problem and solution.
@@ -16,7 +16,7 @@ In two sentences or less, describe the documentation problem and solution.
 #### **Additional context**
 Add any other links, screenshots, or context about the documentation issue here.
 
-> _After all the above sections are filled out, replace the `needs-more-info` label with `Ready for Implementation`, then move on to the implementation._
+> _After all the above sections are filled out, replace the `needs-more-info` label with `ready-to-implement`, then move on to the implementation._
 
 ---
 

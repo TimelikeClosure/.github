@@ -8,7 +8,7 @@ assignees: TimelikeClosure
 ---
 
 ### Quick-Fix - Content Update
-> _To be filled out by author. Add the `enhancement` and `needs-more-info` labels. Assign issue to self on creation._
+> _TAdd the `enhancement` and `needs-more-info` labels._
 
 #### **Short Description**
 In two sentences or less, describe the content being updated.
@@ -16,7 +16,7 @@ In two sentences or less, describe the content being updated.
 #### **Additional context**
 Add any other links, screenshots, or context about the content update here.
 
-> _After all the above sections are filled out, replace the `needs-more-info` label with `Ready for Implementation`, then move on to the implementation._
+> _After all the above sections are filled out, replace the `needs-more-info` label with `ready-to-implement`, then move on to the implementation._
 
 ---
 
