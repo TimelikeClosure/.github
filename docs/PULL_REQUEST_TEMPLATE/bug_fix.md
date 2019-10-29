@@ -53,5 +53,3 @@ Mark any irrelevant checklist items as `[N/A]`.
 1. Merge the pull request.
 1. Delete the source branch.
 1. Open the Related Issue from the Content section and follow its "After Merging Pull Requests" instructions.
-
-> _After all steps are completed, no more actions are required._
