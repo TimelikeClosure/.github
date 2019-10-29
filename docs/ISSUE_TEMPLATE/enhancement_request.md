@@ -8,7 +8,7 @@ assignees: TimelikeClosure
 ---
 
 ### Enhancement Request
-> _To be filled out by author. Add the `enhancement` and `needs-more-info` labels. Assign issue to self on creation._
+> _Add the `enhancement` and `needs-more-info` labels._
 
 #### **Is your enhancement request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
@@ -25,16 +25,13 @@ A clear and concise description of any alternative solutions or enhancements you
 #### **Additional context**
 Add any other context, screenshots, or design documents about the enhancement request here.
 
-> _After all the above sections are filled out, remove the `needs-more-info` label, then assign issue to the repository maintainer._
+> _After all the above sections are filled out, remove the `needs-more-info` label._
 
 ---
 
 ### Pre-Implementation Checklist
-> _To be filled out by repository maintainer._
 
 #### **Validation**
-- [ ] The Request section is filled out completely.
-  - If not, add `needs-more-info` label and assign back to author.
 - [ ] This request is not a duplicate of another request.
   - If it is, reference duplicate issue, add `duplicate` label, and close issue.
 - [ ] This request does not run counter to intended functionality.
@@ -46,12 +43,11 @@ Add any other context, screenshots, or design documents about the enhancement re
 - [ ] The request can be budgetted for active development at this time.
   - If not, add the `postponed` label.
 
-> _After all the above checks pass, add the `ready-to-implement` label and assign issue to implementer._
+> _After all the above checks pass, add the `ready-to-implement` label._
 
 ---
 
 ### Implementation
-> _To be filled out by implementer._
 
 #### **Steps**
 If the enhancement can be broken down into sub-tasks/-issues, add checklist for completion. Reference any sub-issues directly. Steps are checked off as they are added to a pull request.
@@ -62,18 +58,17 @@ If the enhancement can be broken down into sub-tasks/-issues, add checklist for 
 #### **Opening Pull Requests**
 After the enhancement has been pushed to GitHub, open a pull request using the following URL template (filling in the compare branch name):
 ```
-https://github.com/TimelikeClosure/<REPO>/compare/dev...<COMPARE BRANCH>?assignees=TimelikeClosure&&expand=1&&template=enhancement.md&&labels=Enhancement+Needs%20More%20Info&&title=[NEW/INCREMENTAL/CONTENT]%20Insert%20Fix%20Title%20Here
+https://github.com/TimelikeClosure/<REPO>/compare/dev...<COMPARE BRANCH>?assignees=TimelikeClosure&&expand=1&&template=enhancement.md&&labels=enhancement+needs-more-info&&title=[NEW/INCREMENTAL/CONTENT]%20Insert%20Fix%20Title%20Here
 ```
 
 #### **After Merging Pull Requests**
 After a pull request referencing this issue has been merged, check off any completed steps in the Implementation section above.
 
-> _After all the above steps have been completed and integrated into the main development branch, add the `ready-to-test` label, remove the `ready-to-implement` label, and assign issue to tester for verification._
+> _After all the above steps have been completed and integrated into the main development branch, add the `ready-to-test` label, remove the `ready-to-implement` label._
 
 ---
 
 ### Verification
-> _To be filled out by tester._
 
 Commit tested on main development branch: [commit #]
 - [ ] Application runs without crashing.

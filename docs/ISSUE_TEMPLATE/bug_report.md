@@ -8,7 +8,7 @@ assignees: TimelikeClosure
 ---
 
 ### Bug Report
-> _To be filled out by author. Add the `bug` and `needs-more-info` labels. Assign issue to self on creation._
+> _Add the `bug` and `needs-more-info` labels._
 
 #### **Describe the Bug**
 A clear and concise description of what the bug is.
@@ -35,22 +35,19 @@ A clear and concise description of what actually happened. If applicable, add sc
 #### **Additional context**
 Add any other context or screenshots about the problem here.
 
-> _After all the above sections are filled out, remove the `needs-more-info` label, then assign issue to the repository maintainer._
+> _After all the above sections are filled out, remove the `needs-more-info` label._
 
 ---
 
 ### Pre-Implementation Checklist
-> _To be filled out by repository maintainer._
 
 #### **Validation**
-- [ ] The Report section is filled out completely.
-  - If not, add `needs-more-info` label and assign back to author.
 - [ ] This bug is not a duplicate of another request.
   - If it is, reference duplicate issue, add `duplicate` label, and close issue.
 - [ ] This bug is not intended functionality.
   - If it does, add `by-design` label and close issue.
 - [ ] This bug is reproducible with the provided steps.
-  - If it isn't, add `not-reproducible` label and assign back to author.
+  - If it isn't, add `not-reproducible` label.
 
 #### **Budgetting**
 - [ ] The fix will provide enough benefit to justify the cost.
@@ -58,12 +55,11 @@ Add any other context or screenshots about the problem here.
 - [ ] The fix can be budgetted for active development at this time.
   - If not, add the `postponed` label.
 
-> _After all the above checks pass, add the `ready-to-implement` label and assign issue to implementer._
+> _After all the above checks pass, add the `ready-to-implement` label._
 
 ---
 
 ### Implementation
-> _To be filled out by implementer._
 
 #### **Steps Taken**
 A sequential set of steps taken to uncover and fix the bug.
@@ -85,12 +81,11 @@ https://github.com/TimelikeClosure/<REPO>/compare/dev...<COMPARE BRANCH>?assigne
 #### **After Merging Pull Requests**
 After a pull request referencing this issue has been merged, update the implementation sections above with any new information.
 
-> _After all debugging has been completed and integrated into the main development branch, add the `ready-to-test` label, remove the `ready-to-implement` label, and assign issue to tester for verification._
+> _After all debugging has been completed and integrated into the main development branch, add the `ready-to-test` label, remove the `ready-to-implement` label._
 
 ---
 
 ### Verification
-> _To be filled out by tester._
 
 Commit tested on main development branch: [commit #]
 - [ ] Application runs without crashing.
